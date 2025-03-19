@@ -10,6 +10,7 @@ pip install flask flask_sqlalchemy flask_bcrypt flask_login
     /static
         /css
     app.py
+
 from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
