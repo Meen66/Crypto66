@@ -139,3 +139,9 @@ if __name__ == '__main__':
 </body>
 </html>
 python app.py
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/yourrepository.git
+git push -u origin main
